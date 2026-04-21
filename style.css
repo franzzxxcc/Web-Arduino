@@ -1,0 +1,68 @@
+body {
+    background-color: wheat;
+}
+
+.nav {
+    background-color: black;
+    border-radius: 16px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    border:solid black 2px;
+    align-items: center;
+}
+
+.ar {
+    color: white;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.botones-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;   
+    gap: 10px;
+}
+
+.botones-nav a {
+      text-decoration:none;
+      color: white;
+}
+
+.programacion,
+.alimentacion,
+.que-es,
+.otros {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+    border:solid black 2px;
+    height: auto;
+    border-radius: 16px;
+    color: white;
+    padding: 17px;
+    font-size: 17px;
+}
+
+.programacion a,
+.alimentacion a,
+.que-es a,
+.otros a {
+    padding-top: 10px;
+    font-size: 26px;
+    color:forestgreen
+}
+
+.botones button {
+    border-radius: 16px;
+    padding: 10px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border:solid black 2px;
+    background-color: gray;
+    color: white;
+}

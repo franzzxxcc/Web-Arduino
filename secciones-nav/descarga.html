@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+
+    <nav class="nav">
+        <a class="ar">Arduino</a>>
+
+        <div class="botones-nav">
+           <a class="plaq" href="../index.html">Principio</a> 
+           <a class="plaq" href="plaquetas.html">Plaquetas</a>
+           <a class="sens" href="sensores.html">Sensores</a>
+           <a class="desc" href="descarga.html">Descargar</a>
+        </div>
+    </nav>
+
+
+    <div class="que-es">
+        <a>Gracias por su descarga</a>
+        <p>Elija su sistema operativo para comenzar la descargar de Arduino IDE</p>
+        <div class="botones">
+        <button onclick="dwin()">Windows 10/11</button>
+        <button onclick="dmac()">MacOS</button>
+        <button onclick="dlin()">Linux</button>
+    </div>
+
+    <script>
+        function dwin() {
+            alert("Descarga para Windows iniciada");
+            window.location.href = "https://downloads.arduino.cc/AppLab/Stable/ArduinoAppLab_0.6.0_Windows_x86-64_installer.exe";
+    }
+
+        function dmac() {
+            alert("Descarga para MacOS iniciada");
+            window.location.href = "https://downloads.arduino.cc/AppLab/Stable/ArduinoAppLab_0.6.0_Linux_x86-64.tar.gz";
+        }
+
+        function dlin() {
+            alert("Descarga para Linux iniciada");
+            window.location.href = "https://downloads.arduino.cc/AppLab/Stable/ArduinoAppLab_0.6.0.dmg";
+        }
+    </script>
+
+</body>
+</html>
